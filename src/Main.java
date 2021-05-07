@@ -8,9 +8,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in); //Läser in input
-        String s = in.next();
-        if (s.equals("pq")) {
-            pq(in);
+        String s="";
+        while (!s.equals("quit")) {
+            s = in.next();
+            if (s.equals("pq")) {
+                pq(in);
+            }
         }
     }
 
