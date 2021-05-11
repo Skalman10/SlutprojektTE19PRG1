@@ -14,7 +14,17 @@ public class Main {
             if (s.equals("pq")) {
                 pq(in);
             }
+            if (s.equals("triangleA")) {
+                triangleA(in);
+            }
         }
+    }
+
+    private static void triangleA(Scanner in) {
+        System.out.println("triangleA: b,h");
+        long b = in.nextLong();
+        long h = in.nextLong();
+        System.out.println((b*h)/2);
     }
 
     private static void pq(Scanner in) {
