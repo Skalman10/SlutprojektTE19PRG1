@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in); //Läser in input
         String s="";
-        System.out.println("pq");
+        System.out.println("pq \ntriangleA");
         while (!s.equals("quit")) {
             s = in.next();
             if (s.equals("pq")) {
